@@ -664,6 +664,14 @@ main {
 
 footer {
   border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+ul.social-icons {
+  list-style-type: none;
+}
+ul.social-icons li {
+  float: right;
+  padding-left: 6px;
 }
 
 ul.nav-links {
