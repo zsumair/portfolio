@@ -633,10 +633,37 @@ main {
   background: rgba(255, 255, 255, 0.6);
   margin-bottom: 1.45rem;
   font-family: "Work Sans";
+  box-shadow: 0px 3px #f2f7f2;
+}
+
+.work-experience {
+  padding-bottom: 25px;
+  margin-bottom: 24px;
+}
+.job-card {
+  /* background: #ccc; */
+  padding: 12px;
+  margin-bottom: 12px;
+  font-family: "Work Sans";
+  border: 1px solid #f2f7f2;
+  box-shadow: 5px 5px #f2f7f2;
+}
+
+.job-card h2 {
+  margin: 0;
+  /* color: #ffee88; */
+}
+.job-card p {
+  margin: 3px;
+  color: #797596;
+}
+
+.job-card span {
+  color: #f5887f;
 }
 
 footer {
-  text-align: center;
+  border-top: 1px solid #ccc;
 }
 
 ul.nav-links {
@@ -646,7 +673,14 @@ ul.nav-links {
 ul.nav-links li {
   float: left;
   margin: 0px;
-  padding: 6px;
+  padding-left: 16px;
+  margin-left: 12px;
+  text-transform: uppercase;
+}
+
+ul.nav-links li a:hover {
+  color: #f26157;
+  border-bottom: 1px dotted;
 }
 
 ul.nav-links li a {
@@ -667,9 +701,32 @@ ul.nav-links li a {
   margin-top: 2.45rem;
   padding-top: 24px;
 }
+.section .skills {
+  text-align: center;
+}
+
+.skill-list {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 15%;
+  padding-top: 32px;
+}
+
+.skill-list > li:after {
+  content: "";
+  display: block;
+  max-width: 30px;
+  border-bottom: 1px dotted black;
+}
 
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  .skill-list {
+    margin-left: 14px;
+    list-style-type: none;
+    padding-top: 22px;
   }
 }
