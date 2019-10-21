@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Syed Zoheb Ali Sumair `,
+    description: `Portfolio of Front End developer specializing in ReactJs and Javascript .`,
+    author: `@zsumair`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,21 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Rubik`,
+            variants: [`400`, `500`, `700`],
+          },
+          {
+            family: `Work Sans`,
+            variants: [`400`, `500`],
+          },
+        ],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
