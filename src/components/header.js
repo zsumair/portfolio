@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
         to="/"
         duration={1}
         bg="
-        url(https://source.unsplash.com/random/?tech)
+        url(https://source.unsplash.com/random/?programming)
         center / cover   /* position / size */
         no-repeat        /* repeat */
         fixed            /* attachment */
