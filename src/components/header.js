@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
@@ -7,19 +6,6 @@ const Header = ({ siteTitle }) => (
   <header className="navbar">
     <h4 style={{ margin: 0 }}>
       <AniLink
-        cover
-        direction="down"
-        to="/"
-        duration={1}
-        bg="
-        url(https://source.unsplash.com/random/?programming)
-        center / cover   /* position / size */
-        no-repeat        /* repeat */
-        fixed            /* attachment */
-        padding-box      /* origin */
-        content-box      /* clip */
-        white            /* color */
-        "
         style={{
           color: `#F26157`,
           textDecoration: `none`,

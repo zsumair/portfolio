@@ -19,14 +19,15 @@ const IndexPage = () => (
       </span>
       There,
     </h1>
-    <p className="para">
-      I am a Front End Developer with more than 6 years of experience basically
+    <p className="para landing-text">
+      I am a Front End Developer with more than 6 years of experience who
+      focuses on writing clean, elegant and efficient code
       <span role="img" aria-label="rocket emoji" style={{ paddingLeft: `5px` }}>
         🚀
       </span>
-      . I work mostly in Reactjs.However i am comfortable with Nodejs(ExpressJs)
-      and also other front-end frameworks such as VueJS. I Like doing things one
-      day at a time
+      . I work mostly in Reactjs. However i am comfortable with
+      Nodejs(ExpressJs) and also other front-end frameworks such as VueJS. I
+      Like doing things one day at a time
       <span
         role="img"
         aria-label="climbing emoji"
